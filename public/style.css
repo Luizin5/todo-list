@@ -1,0 +1,57 @@
+form
+{
+	text-align: center;
+}
+
+body
+{
+	background: #474747;
+}
+
+input
+{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	border-radius: 2px;
+	height: 40px;
+	width: 200px;
+	outline: none;
+	transition: all 0.5s;
+}
+input:hover,
+focus
+{
+	background: white;
+	color: black;
+}
+
+li
+{
+	margin: 17px;
+	color: white;
+}
+
+button
+{
+	height:40px;
+	width:100px;
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 2px;
+	color: white;
+	transition: all 0.5s;
+}
+
+button:hover,
+focus
+{
+	background: white;
+	color: black:
+}
+
+hr
+{
+	border-color: transparent;
+	background-color: white;
+}

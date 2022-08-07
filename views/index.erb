@@ -1,0 +1,12 @@
+<title> TODO LIST </title>
+
+<form action="/" method="POST">
+  <input name="todo" placeholder="digite aqui...">
+  <button type="submit">Enviar</button>
+</form>
+<hr>
+<ul>
+  <% db.each do |b| %>
+    <li> <%= b %> </li>
+  <% end %>
+</ul>
