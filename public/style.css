@@ -1,3 +1,42 @@
+/*.deleteform
+{
+	display:flex;
+}*/
+
+.delete
+{
+	color:white;
+	border: 1px solid white;
+	background: transparent;
+	transition: all 0.4s;
+
+	
+	/*width: 100%;*/
+}
+
+.delete:hover,
+focus{
+	background: white;
+}
+
+
+.deletediv
+{
+	/*display: flex;*/
+	border: 1px solid white;
+}
+
+ul
+{
+	list-style-type:none;
+	padding: 0px;
+}
+
+li
+{
+	color: black;
+}
+
 form
 {
 	text-align: center;

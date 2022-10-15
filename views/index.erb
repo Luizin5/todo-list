@@ -7,6 +7,20 @@
 <hr>
 <ul>
   <% db.each do |b| %>
-    <li> <%= b %> </li>
+    <div class="deletediv">
+    <li > 
+      <%= b %> <br>
+        <form action="/delete/<%= b %>" method="POST" class= "deleteform">
+
+          <center>
+            <button class="delete">
+              <img src="/excluir.png"  width="25px" height="25px">
+            </button>
+          </center>
+
+        </form>
+    </li>
+    </div>
+    <br>
   <% end %>
 </ul>

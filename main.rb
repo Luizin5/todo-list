@@ -11,3 +11,8 @@ post "/" do
   session["afazeres"] << params["todo"]
   redirect "/"
 end
+
+post "/delete/:todo" do
+  session["afazeres"].delete params[:todo]
+  redirect "/"
+end
